@@ -1,0 +1,21 @@
+INSERT INTO PERSON(ID,BIRTHDATE,NAME)
+VALUES (10001,'2001-10-07','nanda');
+
+INSERT INTO PERSON(ID,BIRTHDATE,NAME)
+VALUES (10002,'1999-10-07','Vinchenzo');
+
+
+INSERT INTO PERSON(ID,BIRTHDATE,NAME)
+VALUES (10003,'1950-10-07','vistar');
+
+INSERT INTO POST(id,description,person_id)
+VALUES(20001,'learn devOPs',10001);
+
+INSERT INTO POST(id,description,person_id)
+VALUES(20002,'learn SpringBoot',10001);
+
+INSERT INTO POST(id,description,person_id)
+VALUES(20003,'learn AWS',10002);
+
+INSERT INTO POST(id,description,person_id)
+VALUES(20004,'learn Cloud',10003);
